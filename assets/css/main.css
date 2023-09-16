@@ -1,0 +1,107 @@
+/* Reset some default styles and set a background color */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif; /* Use Google Fonts */
+    background-color: #f0f0f0; /* Set your background color */
+  }
+  
+  /* Style the navigation bar */
+  .navbar {
+    background-color: #117a65; /* Set the background color of the navbar */
+    color: #fff; /* Set text color to white */
+  }
+  
+  .navbar-brand {
+    font-size: 24px;
+  }
+  
+  /* Style the main header */
+  .home-header {
+    font-size: 48px;
+    font-weight: bold;
+    color: #117a65; /* Set the text color of the header */
+  }
+  
+  .content h2 {
+    color: #333; /* Set the text color of the name */
+  }
+  
+  /* Style the "Contact Me" button */
+  .home-btn {
+    background-color: #117a65; /* Set the button's background color */
+    color: #fff; /* Set text color to white */
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Add a smooth hover effect */
+  }
+  
+  .home-btn:hover {
+    background-color: #095e49; /* Change background color on hover */
+  }
+  
+  /* Style the section titles */
+  .sec-title {
+    background-color: #117a65; /* Set the background color of section titles */
+    color: #fff; /* Set text color to white */
+    font-weight: bold;
+    font-size: 24px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  
+  /* Style the container for About, Education, and Experience sections */
+  .container {
+    background-color: #fff; /* Set background color of sections */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add a shadow to the container */
+  }
+  
+  /* Style the social links */
+  .landing-social-link {
+    font-size: 24px;
+    margin: 10px;
+    color: #117a65; /* Set the color of social icons */
+    text-decoration: none;
+  }
+  
+  /* Style the contact form */
+  #contact_form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the submit button */
+  .submit-btn {
+    background-color: #117a65;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: #095e49;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: #117a65;
+    color:#2a6634;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .social-link {
+    color: #2a6634;
+    text-decoration: none;
+  }
+  
+  .social-link:hover {
+    text-decoration: underline;
+  }
+  
